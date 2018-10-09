@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DefaultTransformer"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_Accordion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AccordionTransformer"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_CubeIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CubeInTransformer"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_CubeOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CubeOutTransformer"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_ForegroundToBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ForegroundToBackgroundTransformer"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_BackgroundToForeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BackgroundToForeground"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
