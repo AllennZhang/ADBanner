@@ -32,6 +32,8 @@ public class BannerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_banner);
         Banner banner = findViewById(R.id.banner);
         TextView tvDesc = findViewById(R.id.tv_desc);
+        tvDesc.setText(getString(R.string.gank_io_introduction));
+        tvDesc.setMovementMethod(ScrollingMovementMethod.getInstance());
         String transform = getIntent().getStringExtra("transform");
         //设置不同的transform
         switch (transform){
@@ -58,8 +60,6 @@ public class BannerActivity extends AppCompatActivity {
         banner.setBannerLoader(new DefaultBannerLoader());
         //设置数据，最后调用
         banner.setViewUrls(imgurls);
-        tvDesc.setText(getString(R.string.gank_io_introduction));
-        tvDesc.setMovementMethod(ScrollingMovementMethod.getInstance());
 
     }
 }
