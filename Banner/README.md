@@ -5,7 +5,7 @@
 
   * 效果图：
   <div align="left">
-   <img src="https://github.com/YouriZhang/imagefolder/blob/master/girls.gif" width="480" height="800">
+   <img src="https://github.com/YouriZhang/imagefolder/blob/master/girls.gif" width="320" height="600">
   </div> 
 
   * 自定义属性：
