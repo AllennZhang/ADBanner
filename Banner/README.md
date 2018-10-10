@@ -4,6 +4,9 @@
     实现各种过渡动画效果
 
   * 效果图：
+  <div align="left">
+   <img src="https://github.com/YouriZhang/imagefolder/blob/master/girls.gif">
+  </div> 
 
   * 自定义属性：
   ```
