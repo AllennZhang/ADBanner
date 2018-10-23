@@ -51,8 +51,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                  startActivity(intent);
                  break;
              case R.id.btn_BackgroundToForeground:
-                 intent.putExtra("transform","BgToForeground");
-                 startActivity(intent);
+//                 intent.putExtra("transform","BgToForeground");
+//                 startActivity(intent);
+                 startActivity(new Intent(this,PhotoActivity.class));
                  break;
          }
     }
