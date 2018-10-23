@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.hipac.banner"
+        applicationId "com.hipac.banners"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -22,6 +22,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "8g"
+    }
 }
 
 dependencies {
@@ -32,5 +37,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(':banner-lib')
-    implementation 'com.android.support:multidex:1.0.3'
+    api 'com.android.support:multidex:1.0.3'
 }

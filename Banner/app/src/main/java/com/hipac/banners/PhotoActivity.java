@@ -1,4 +1,4 @@
-package com.hipac.banner;
+package com.hipac.banners;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

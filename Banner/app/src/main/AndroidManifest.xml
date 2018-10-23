@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hipac.banner">
+    package="com.hipac.banners">
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -10,16 +10,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.hipac.banners.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BannerActivity"
+        <activity android:name="com.hipac.banners.BannerActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".PhotoActivity"
+        <activity android:name="com.hipac.banners.PhotoActivity"
             android:screenOrientation="portrait"/>
     </application>
 

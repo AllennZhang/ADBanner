@@ -1,4 +1,4 @@
-package com.hipac.banner;
+package com.hipac.banners;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
+import com.hipac.banner.Banner;
+import com.hipac.banner.DefaultBannerLoader;
 import com.hipac.banner.transformer.AccordionTransformer;
 import com.hipac.banner.transformer.BackgroundToForegroundTransformer;
 import com.hipac.banner.transformer.CubeInTransformer;
