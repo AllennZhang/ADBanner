@@ -1,4 +1,4 @@
-# Banner
+# ADBanner
   * 自定义轮播图Banner，自定义View继承自RelativeLayout
   * 重写ViewPager.PageTransformer transformPage(View page, float position)方法
     实现各种过渡动画效果
@@ -81,4 +81,3 @@
 
       }
   ```
-
